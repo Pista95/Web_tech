@@ -1,0 +1,253 @@
+header{	
+		
+		background-image: url("banner-1036483_960_720.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		color: #4E54C9;
+		font-size: 19px;
+		text-align: center;
+				
+	}
+		
+	nav {	
+		height:90px;	
+	}
+	
+	nav li {	
+		display : inline-block;
+		width : 165px;
+		padding: 5px;
+		margin : 5px;
+		border : 1px solid lime;
+		border-radius : 5px;
+		text-align : center;
+		background: lime;		
+			
+	}	
+	
+	nav li:hover {	
+		background: yellow;		
+	}
+	
+	nav a{
+		text-decoration: none;
+	
+	}
+	
+	nav a:link{
+		color: #191943;
+	}
+	nav a:hover{
+		color: red;
+	}
+	
+	nav a:active {
+		color: red;
+	}
+		
+	nav audio {
+	    width: 230x;
+		height: 40px;
+		padding: 10px;
+		margin : 6px;
+		float: right;
+		
+	}
+	
+	nav ul{		
+		display: inline-block;
+	}
+	
+	body{
+		color: lime; 
+		background-color:#020205;
+		style=min-width: 1350px;
+		
+	}
+	
+	p{
+		color: lime;
+		
+	}
+	
+	div {	
+		//border: 1px solid yellow;
+	}
+	
+	#content {  
+		min-height: 796px;
+		background-attachment: scroll;
+		background-position: center;
+		background-image: url("http://mosaicon.hu/wallpapers/univerzum/sotet-bolygo-500.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;		
+		color: yellow;
+	
+	}
+	
+	#icontent {  
+		min-height: 795px;
+		height: 90px;
+		width: 225px;
+		color: yellow;
+		float: right;
+		
+	}
+	
+	#lcontent {  
+		min-height: 795px;
+		height: 90px;
+		width: 225px;
+		color: yellow;
+		float: left;
+	
+	}
+	
+	#ccontent { 
+		min-height: 60px;
+		min-width: 795px;
+		height: auto;		
+		margin-left: 40px;
+		color: yellow;
+		padding: 10px;
+		float: left;
+		display : inline-block;
+		
+	}
+	
+	#contact{
+		border-collapse: collapse;
+		
+	}
+
+	#contact td{
+		border: none;
+		width: 90px;
+		font-size: 25px;
+		padding: 15px;
+		color: yellow;
+	}
+	
+	footer {    
+		height: 19px;
+		margin: auto;
+		background: black;
+		color: #408080;
+		clear: both;
+		text-align: center;
+		
+	}
+	
+	footer a{	
+		text-decoration: none;
+		padding: 0px 10px 0px 10px;
+		//border-left: 1px solid;
+	
+	}
+	
+	footer a:link {
+		color: #408080;
+	}
+	
+	footer a:visited {
+		color: green;
+	}
+	
+	footer a:hover {
+		color: hotpink;
+	}
+	
+	footer a:active {
+		color: blue;
+	}
+	
+	#iframe{
+		margin-left: 40px;
+		border: none;
+		width: 795px;
+		height: 400px;
+		color: lime;	
+	}
+	#musorok td{		
+		padding: 10px;
+		color: #40C6C4;
+		margin-left: 40px;
+		
+	}
+	
+	.col{
+	display : inline-block;	
+	margin: 5px;
+	}
+	
+	.img{
+		width: 225px;
+		overflow: hidden;	
+		margin: 5px;
+	}
+	
+	.col a{ 
+		text-decoration: none;	
+		
+	}
+	
+	.title{	
+		width: 110px;
+		margin-left: 10px;
+		margin-top: -30px;
+		font-size: 16px;
+	}
+	
+	.col span{
+		background-color: yellow;
+		padding: 3px;
+		
+	}
+	
+	#comment{		
+		margin-left: 90px;
+		display: none;
+	}
+	
+	form{
+		margin-left: 40px;
+		margin-top: 10px;
+	
+	}
+	
+	#json {	
+		display : inline-block;
+		padding: 5px;
+		margin-left: 40px;
+			
+	}
+	
+	#tablevicc{
+		width:160px;
+		border:0px;
+		cellspacing:1px;
+		cellpadding: 0px;
+		margin-left: 40px;
+		margin-top: 30px;
+		height: 224px;
+		
+	}
+	
+	#tablevicc tr{
+		height: 23px;
+		BACKGROUND: #18115B;
+		TEXT-ALIGN: Center;
+	}
+	
+	#tablevicc span{
+	    color: yellow;
+	
+	}
+	
+	#ccont{	
+	width: 760px;
+	float: left;
+	
+	
+	}

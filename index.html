@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="hun">
+	<head>
+	<meta charset="utf-8">
+	<title>Honlap </title>
+	<link rel="icon" href="favicon.ico" sizes="16x16" type="image/png">
+	<link rel="stylesheet" href="styleweb.css">	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="javasript.js"></script>
+	</head>
+	
+	<body>
+	<!-- Facebook  -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v2.7&appId=1054222421275923";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Facebook end-->	
+			
+	<header>
+	<h1><br><img src="http://www.musicfm.hu/sites/all/themes/fm/images/listen/listenlogo.png"></h1>	
+		<nav id="menu">
+			<ul>
+			<a href="kezdolap.html"><li>Kezdőlap</li></a>
+			<a href="musorok.html"><li>Műsorok</li></a>
+			<a href="eloadok.html"><li>Szerkesztők</li></a>
+			<a href="kapcsolat.html"><li>Elérhetőség</li></a>
+			<a id="zenei" href="zeneikeresek.html" onmouseover=""><li id="zen">Zenei kérések</li></a>
+			</ul>				
+			<audio  preload="auto"  controls autoplay>
+			<source src="http://79.172.241.238:8000/musicfm.mp3" type="audio/mpeg">					  
+			</audio>				
+		</nav>
+	</header>
+	
+	<div id="content">
+	
+	<div id="icontent">	
+		<form action="action_page.php">
+		Login<br>
+		<input id="email" type="email" value="e-mail" required>
+		<input id="password" type="password" value="jelszó" required>
+		<input type="submit" onclick="ellenoriz()" value="Login">
+		</form>	
+		
+		
+		
+		<table id="tablevicc">
+		<tr><td>
+		<span>A nap vicce</span></td></tr>		
+		<tr><td>
+		<iframe src='http://www.viccesviccek.hu/viccdoboz.php?h=FFFFFF&w=160&b=14&sz=000000' width='158' height='224' marginwidth='3' marginheight='3' hspace='0' vspace='0' frameborder='0' scrolling='auto'></iframe>
+		</td></tr>
+		</table>
+		
+		<div id="json">		
+		</div>	
+	</div>
+	
+	
+	<div id="lcontent">
+		<div  class="fb-page" data-href="https://www.facebook.com/R&#xe1;di&#xf3;-Avas-900281199986948/" data-tabs="timeline" data-width="225" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/R&#xe1;di&#xf3;-Avas-900281199986948/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/R&#xe1;di&#xf3;-Avas-900281199986948/">Rádió Avas</a></blockquote></div>
+	</div>
+	
+	
+	<div id="ccont">
+	
+		<div id="ccontent">	
+		<br>	
+		</div>	
+		<div id="comment" class="fb-comments" data-href="http://berzi.atw.hu/indexi.html" data-width="600" data-numposts="5"></div>
+		
+	</div>
+	</div>
+	
+	<footer>	
+	<a href="aszf.html">Általános Szerződési Feltételek</a>
+	<a href="imp.html" >Impresszum</a>
+	<a href="jogi_nyilatkozat.html">Jogi nyilatkozat</a>
+	<a href="http://nmhh.hu/" target="_blank">Felügyeleti szerv: Nemzeti Média- és Hírközlési Hatóság</a>
+	</footer>	
+	</body>
+	</html>
